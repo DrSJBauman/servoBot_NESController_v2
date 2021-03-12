@@ -67,3 +67,31 @@ void reverseLeft() {
   servoLeft.writeMicroseconds(1400);
   servoRight.writeMicroseconds(2400);
 }
+
+/////////////////////////////
+// Motion routines for combinations of B with forward/reverse and right/left, a slow forward turn
+
+// Try out these servo values with the actual setup to get the desired speed:
+void slowForward() {
+  reAttach();
+  servoLeft.write(135);
+  servoRight.write(45);
+}
+
+void slowRight() {
+  reAttach();
+  servoLeft.write(135);
+  servoRight.write(135);
+}
+
+void slowReverse() {
+  reAttach();
+  servoLeft.write(45);
+  servoRight.write(135);
+}
+
+void slowLeft() {
+  reAttach();
+  servoLeft.write(45);
+  servoRight.write(45);
+}

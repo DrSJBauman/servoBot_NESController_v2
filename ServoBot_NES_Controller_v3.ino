@@ -2,12 +2,12 @@
 ================================================================================
 
     File........... NES Controller Basic Use with Servo motors
-    Purpose........ To demonstrate how to interface a 2-servo robot to an NES controller
+    Purpose........ To demonstrate how to interface a 2-servo robot to an NES controller, etc
     Author......... Dr Stephen J Bauman
     E-mail......... sjbauman0@gmail.com
     Started........ 10/11/2019
-    Finished....... 10/14/2019
-    Updated........ --/--/----
+    Finished....... xx/xx/20XX
+    Updated........ 03/12/2021
  
 ================================================================================
    Notes
@@ -58,4 +58,9 @@ From v1:
 - added forward/reverse + right/left turning functionality
 - modified input declarations
 - inserted additional comments
+
+From v2:
+- try to add a slow down function so that holding B while turning does a slower turn
+- incorporate the front leaf switch bumpers to set the bot up for autonomous driving
+- added a switch to toggle between automatic and manual driving modes
 */

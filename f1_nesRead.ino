@@ -9,8 +9,8 @@ byte nesRead() {
   for (int i=0; i<8; i++) {       // Cycle through all 8 bits
     digitalWrite(nesClock, LOW);  // Each clock cycle, one of the bits appears at Data pin
     value |= digitalRead(nesData) << (i); // Read Data pin and store current bit in the
-                                           // appropriate position of "dataIn"
+                                           // appropriate position of the "value" byte
     digitalWrite(nesClock, HIGH); // Finish the clock cycle
   }
-  return(value);                  // Return the full byte where 0 = button pressed
+  return(value);                  // Return the full byte where a 0 = associated button pressed
 }
