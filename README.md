@@ -1,0 +1,1 @@
+v3 Incorporates the front leaf switch bumpers to prepare the bot for some autonomous driving.
